@@ -1,4 +1,4 @@
-package Project;
+package project;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -13,6 +13,4 @@ public class GreetingResource {
     public String hello() {
         return "Hello RESTEasy";
     }
-
-
 }
